@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Awesome Presentation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  </head>
+  <body>
+    <script src="remark.min.js"></script>
+    <script src="readfile.js"></script>
+    <script>
+      var slideshow = remark.create({source: readTextFile('slides.md')});
+    </script>
+  </body>
+</html>

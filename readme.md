@@ -8,7 +8,7 @@
 In your working directory, simply run:
 
 ```
-$ curl -sSL https://github.com/uschek/markdown-presentation-boilerplate/archive/master.tar.gz | tar -xz --strip-components=2 markdown-presentation-boilerplate-master/boilerplate
+$ curl -fsSL https://github.com/uschek/markdown-presentation-boilerplate/archive/master.tar.gz | tar -xz --strip-components=2 markdown-presentation-boilerplate-master/boilerplate
 ```
 
 
